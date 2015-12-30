@@ -139,7 +139,7 @@ function create() {
     cursors = game.input.keyboard.createCursorKeys();
 
     game.input.onDown.add(click, this);
-    instructions = game.add.text(game.camera.width - 100, 10, "Кораблики\n пип пип пип", {
+    instructions = game.add.text(10, 10, "Кораблики\n пип пип пип\nстрелочки - управление\nкакая-то кнопка(не помню какая) - стрельба", {
         font: "14px Ubuntu",
         fill: "#ffffff",
         align: "center"
