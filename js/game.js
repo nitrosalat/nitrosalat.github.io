@@ -138,7 +138,7 @@ function create() {
 
     cursors = game.input.keyboard.createCursorKeys();
 
-    game.input.onDown.add(click, this);
+    game.input.onDown.add(click, this);cd
     instructions = game.add.text(10, 10, "Кораблики v.0.0.2\n пип пип пип\nстрелочки - управление\nкакая-то кнопка(не помню какая) - стрельба", {
         font: "14px Ubuntu",
         fill: "#ffffff",
