@@ -140,9 +140,9 @@ function create() {
 
     game.input.onDown.add(click, this);
     instructions = game.add.text(100, 10, "Кораблики v.0.0.2\n пип пип пип\nстрелочки - управление\nкакая-то кнопка(не помню какая) - стрельба", {
-        font: "14px Colibri",
+        font: "14px Ubuntu",
         fill: "#ffffff",
-        align: "center"
+        align: "left"
     });
     instructions.fixedToCamera = true;
 }
